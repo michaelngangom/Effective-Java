@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Effective Java</string>
+
+
+    <string-array name="mainTopics">
+        <item>Creating and Destroying Objects</item>
+        <item>Methods Common to All Objects</item>
+        <item>Classes and Interfaces</item>
+        <item>Generics</item>
+        <item>Enums and Annotations</item>
+        <item>Methods</item>
+        <item>General Programming</item>
+        <item>Exceptions</item>
+        <item>Concurrency</item>
+
+
+
+
+
+    </string-array>
 </resources>
