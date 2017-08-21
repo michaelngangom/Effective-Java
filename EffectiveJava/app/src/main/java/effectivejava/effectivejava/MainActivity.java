@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,53 +25,65 @@ public class MainActivity extends AppCompatActivity {
 //                }
                 switch (position){
                     case 0:{
-                        Intent intent = new Intent(MainActivity.this,CAndD.class);
-                        startActivity(intent);
+                        TextView textView= (TextView) findViewById(R.id.textTest);
+                        textView.setText("It works!");
+                        break;
+//                        Intent intent = new Intent(MainActivity.this,CAndD.class);
+//                        startActivity(intent);
 
                     }
                     case 1:{
                         Intent intent = new Intent(MainActivity.this,MCAO.class);
                         startActivity(intent);
+                        break;
 
                     }
                     case 2:{
                         Intent intent = new Intent(MainActivity.this,ClassAndInterfaces.class);
                         startActivity(intent);
+                        break;
 
                     }
                     case 3:{
                         Intent intent = new Intent(MainActivity.this,Generics.class);
                         startActivity(intent);
+                        break;
 
                     }
                     case 4:{
                         Intent intent = new Intent(MainActivity.this,EnumsAndAnnotation.class);
                         startActivity(intent);
+                        break;
 
                     }
                     case 5:{
                         Intent intent = new Intent(MainActivity.this,Methods.class);
                         startActivity(intent);
+                        break;
 
                     }
                     case 6:{
                         Intent intent = new Intent(MainActivity.this,GeneralProgramming.class);
                         startActivity(intent);
+                        break;
 
                     }
                     case 7:{
                         Intent intent = new Intent(MainActivity.this,Exceptions.class);
                         startActivity(intent);
+                        break;
 
                     }
                     case 8:{
                         Intent intent = new Intent(MainActivity.this,Concurrency.class);
                         startActivity(intent);
+                        break;
 
                     }
                     case 9:{
                         Intent intent = new Intent(MainActivity.this,Serializations.class);
                         startActivity(intent);
+                        break;
 
                     }
                     default:
