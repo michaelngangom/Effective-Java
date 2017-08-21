@@ -8,8 +8,7 @@ import android.support.annotation.Nullable;
  * Created by michaelngangom on 8/21/17.
  */
 
-public class CAndD extends ListActivity {
-
+public class MCAO extends ListActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
