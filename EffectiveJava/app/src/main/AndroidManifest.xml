@@ -29,28 +29,44 @@
         </activity>
 
         <activity android:name=".EnumsAndAnnotation"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+
+        </activity>
 
         <activity android:name=".Exceptions"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+
+        </activity>
 
         <activity android:name=".GeneralProgramming"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+
+        </activity>
 
         <activity android:name=".Methods"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+
+        </activity>
 
         <activity android:name=".Serializations"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+
+        </activity>
 
         <activity android:name=".ClassAndInterfaces"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+
+        </activity>
 
         <activity android:name=".Generics"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+
+        </activity>
 
         <activity android:name=".MCAO"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+
+        </activity>
     </application>
 
 </manifest>
