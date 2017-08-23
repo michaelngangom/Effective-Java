@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,11 +24,12 @@ public class MainActivity extends AppCompatActivity {
 //                }
                 switch (position){
                     case 0:{
-                        TextView textView= (TextView) findViewById(R.id.textTest);
-                        textView.setText("It works!");
+//                        TextView textView= (TextView) findViewById(R.id.textTest);
+//                        textView.setText("It works!");
+
+                        Intent intent = new Intent(MainActivity.this,CAndD.class);
+                        startActivity(intent);
                         break;
-//                        Intent intent = new Intent(MainActivity.this,CAndD.class);
-//                        startActivity(intent);
 
                     }
                     case 1:{
