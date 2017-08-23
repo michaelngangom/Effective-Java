@@ -15,9 +15,9 @@ public class Exceptions extends ListActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ListView listView=getListView();
+        ListView listView = getListView();
 
-        ListAdapter listAdapter= new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,
+        ListAdapter listAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
                 AllTopics.topicsExceptions);
         listView.setAdapter(listAdapter);
     }

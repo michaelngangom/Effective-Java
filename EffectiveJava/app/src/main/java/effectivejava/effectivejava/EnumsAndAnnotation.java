@@ -15,8 +15,8 @@ public class EnumsAndAnnotation extends ListActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ListView listView= getListView();
-        ListAdapter listAdapter= new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,
+        ListView listView = getListView();
+        ListAdapter listAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
                 AllTopics.topicsEnumsAndAnnotations);
 
         listView.setAdapter(listAdapter);

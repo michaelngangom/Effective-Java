@@ -16,72 +16,72 @@ public class MainActivity extends AppCompatActivity {
 
         //crete an onItemClickListener
 
-        AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener(){
-            public void onItemClick(AdapterView ListView, View v,int position,long id){
+        AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView ListView, View v, int position, long id) {
 //                if(position ==0){
 //                    Intent intent = new Intent(MainActivity.this,CAndD.class);
 //                    startActivity(intent);
 //                }
-                switch (position){
-                    case 0:{
+                switch (position) {
+                    case 0: {
 //                        TextView textView= (TextView) findViewById(R.id.textTest);
 //                        textView.setText("It works!");
 
-                        Intent intent = new Intent(MainActivity.this,CAndD.class);
+                        Intent intent = new Intent(MainActivity.this, CAndD.class);
                         startActivity(intent);
                         break;
 
                     }
-                    case 1:{
-                        Intent intent = new Intent(MainActivity.this,MCAO.class);
+                    case 1: {
+                        Intent intent = new Intent(MainActivity.this, MCAO.class);
                         startActivity(intent);
                         break;
 
                     }
-                    case 2:{
-                        Intent intent = new Intent(MainActivity.this,ClassAndInterfaces.class);
+                    case 2: {
+                        Intent intent = new Intent(MainActivity.this, ClassAndInterfaces.class);
                         startActivity(intent);
                         break;
 
                     }
-                    case 3:{
-                        Intent intent = new Intent(MainActivity.this,Generics.class);
+                    case 3: {
+                        Intent intent = new Intent(MainActivity.this, Generics.class);
                         startActivity(intent);
                         break;
 
                     }
-                    case 4:{
-                        Intent intent = new Intent(MainActivity.this,EnumsAndAnnotation.class);
+                    case 4: {
+                        Intent intent = new Intent(MainActivity.this, EnumsAndAnnotation.class);
                         startActivity(intent);
                         break;
 
                     }
-                    case 5:{
-                        Intent intent = new Intent(MainActivity.this,Methods.class);
+                    case 5: {
+                        Intent intent = new Intent(MainActivity.this, Methods.class);
                         startActivity(intent);
                         break;
 
                     }
-                    case 6:{
-                        Intent intent = new Intent(MainActivity.this,GeneralProgramming.class);
+                    case 6: {
+                        Intent intent = new Intent(MainActivity.this, GeneralProgramming.class);
                         startActivity(intent);
                         break;
 
                     }
-                    case 7:{
-                        Intent intent = new Intent(MainActivity.this,Exceptions.class);
+                    case 7: {
+                        Intent intent = new Intent(MainActivity.this, Exceptions.class);
                         startActivity(intent);
                         break;
 
                     }
-                    case 8:{
-                        Intent intent = new Intent(MainActivity.this,Concurrency.class);
+                    case 8: {
+                        Intent intent = new Intent(MainActivity.this, Concurrency.class);
                         startActivity(intent);
                         break;
 
                     }
-                    case 9:{
-                        Intent intent = new Intent(MainActivity.this,Serializations.class);
+                    case 9: {
+                        Intent intent = new Intent(MainActivity.this, Serializations.class);
                         startActivity(intent);
                         break;
 

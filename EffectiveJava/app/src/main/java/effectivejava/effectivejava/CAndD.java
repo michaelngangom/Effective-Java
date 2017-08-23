@@ -12,20 +12,11 @@ import android.widget.ListView;
 
 public class CAndD extends ListActivity {
 
-//    private AllTopics getThisTopics()
-//    {
-//
-//        for(int i=0;i<6;i++){
-//            temp=AllTopics.topics[i];
-//        }
-//    }
-
-
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ListView listView=getListView();
+        ListView listView = getListView();
         ArrayAdapter listAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,
                 AllTopics.topicsCAndD);
         listView.setAdapter(listAdapter);

@@ -16,7 +16,7 @@ public class ClassAndInterfaces extends ListActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ListView listView = getListView();
-        ListAdapter listAdapter =  new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
+        ListAdapter listAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
                 AllTopics.topicsClassAndInterfaces);
 
         listView.setAdapter(listAdapter);

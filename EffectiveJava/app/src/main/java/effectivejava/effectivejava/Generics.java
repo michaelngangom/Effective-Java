@@ -16,8 +16,8 @@ public class Generics extends ListActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        ListView listView=getListView();
-        ListAdapter listAdapter= new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,
+        ListView listView = getListView();
+        ListAdapter listAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
                 AllTopics.topicsGenerics);
         listView.setAdapter(listAdapter);
     }
